@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+        body
+{
+    background-color: cyan;
+}
+.main_wrapper
+{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.header_wapper
+{
+width: 1000px;
+height: 100px;
+background: #fff;
+}
+#navbar
+{
+    width: 1000px;
+    height: 50px;
+    background:#999;
+    color: #fff;
+
+}
+#menu
+{
+    padding: 0;
+    margin-top: 5px;
+    line-height: 35px;
+    float: left;
+}
+#menu li{
+    list-style: none;
+    display: inline;
+}
+#menu a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+
+}
+#menu a:hover
+{
+text-decoration: underline;
+font-weight: bold;
+color: #333;
+}
+#form
+{
+    float: right;
+    line-height: 50px;
+    padding-right: 5px;
+}
+.content_wrapper
+{
+    width: 1000px;
+    height: 600px;
+    background: #f96;
+
+}
+#right_content
+
+
+{
+    height: 600px;
+    width: 800px;
+    background: #FCC;
+    float: right;
+
+
+}
+#left_slidebar
+{
+    width: 200px;
+    height: 600px;
+    float: left;
+    background: #000;
+}
+.foooter
+{
+    width: 1000px;
+    height: 100px;
+    background: #999;
+    color: #fff;
+    clear: both;
+
+}
+#slidebar_titel
+{
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cata
+{
+    padding: 10px;
+    text-align: center;
+}
+#cata li
+{
+list-style: none;
+margin: 8px;
+}
+
+#cata a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+}
+#cata a:hover
+{
+    color: #f93;
+    text-decoration: underline;
+    font-weight:bold ;
+}
+
